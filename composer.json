@@ -1,0 +1,33 @@
+{
+    "name": "clarity-project/yandex-direct-bundle",
+    "description": "Symfony2 Yandex Direct",
+    "keywords": ["yandex", "direct", "php", "symfony", "symfony2", "xml"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timofei Cherniavsky",
+            "email": "varloc2000@gmail.com"
+        },
+        {
+          "name": "Vladislav Shishko",
+          "email": "13thmerlin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.2",
+        "symfony/symfony": "~2.3",
+        "guzzle/guzzle": "~3.8",
+        "misd/guzzle-bundle": "~1.0",
+        "jms/serializer-bundle": "0.13.*",
+        "clarity-project/yandex-oauth-bundle": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Clarity\\YandexDirectBundle\\": ""
+        }
+    }
+}
